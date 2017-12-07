@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFEF57F1FD8C0070032DAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEF57E1FD8C0070032DAE7 /* AppDelegate.swift */; };
+		0EFEF5811FD8C0070032DAE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEF5801FD8C0070032DAE7 /* ViewController.swift */; };
+		0EFEF5841FD8C0070032DAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEF5821FD8C0070032DAE7 /* Main.storyboard */; };
+		0EFEF5861FD8C0070032DAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEF5851FD8C0070032DAE7 /* Assets.xcassets */; };
+		0EFEF5891FD8C0070032DAE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEF5871FD8C0070032DAE7 /* LaunchScreen.storyboard */; };
+		0EFEF5941FD8C0070032DAE7 /* Granny_GearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEF5931FD8C0070032DAE7 /* Granny_GearTests.swift */; };
+		0EFEF59F1FD8C0070032DAE7 /* Granny_GearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEF59E1FD8C0070032DAE7 /* Granny_GearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFEF5901FD8C0070032DAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFEF5731FD8C0060032DAE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFEF57A1FD8C0070032DAE7;
+			remoteInfo = "Granny Gear";
+		};
+		0EFEF59B1FD8C0070032DAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFEF5731FD8C0060032DAE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFEF57A1FD8C0070032DAE7;
+			remoteInfo = "Granny Gear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFEF57B1FD8C0070032DAE7 /* Granny Gear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Granny Gear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFEF57E1FD8C0070032DAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EFEF5801FD8C0070032DAE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EFEF5831FD8C0070032DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EFEF5851FD8C0070032DAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EFEF5881FD8C0070032DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EFEF58A1FD8C0070032DAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFEF58F1FD8C0070032DAE7 /* Granny GearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Granny GearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFEF5931FD8C0070032DAE7 /* Granny_GearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Granny_GearTests.swift; sourceTree = "<group>"; };
+		0EFEF5951FD8C0070032DAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFEF59A1FD8C0070032DAE7 /* Granny GearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Granny GearUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFEF59E1FD8C0070032DAE7 /* Granny_GearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Granny_GearUITests.swift; sourceTree = "<group>"; };
+		0EFEF5A01FD8C0070032DAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFEF5781FD8C0070032DAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF58C1FD8C0070032DAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF5971FD8C0070032DAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFEF5721FD8C0060032DAE7 = {
+			isa = PBXGroup;
+			children = (
+				0EFEF57D1FD8C0070032DAE7 /* Granny Gear */,
+				0EFEF5921FD8C0070032DAE7 /* Granny GearTests */,
+				0EFEF59D1FD8C0070032DAE7 /* Granny GearUITests */,
+				0EFEF57C1FD8C0070032DAE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFEF57C1FD8C0070032DAE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEF57B1FD8C0070032DAE7 /* Granny Gear.app */,
+				0EFEF58F1FD8C0070032DAE7 /* Granny GearTests.xctest */,
+				0EFEF59A1FD8C0070032DAE7 /* Granny GearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFEF57D1FD8C0070032DAE7 /* Granny Gear */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEF57E1FD8C0070032DAE7 /* AppDelegate.swift */,
+				0EFEF5801FD8C0070032DAE7 /* ViewController.swift */,
+				0EFEF5821FD8C0070032DAE7 /* Main.storyboard */,
+				0EFEF5851FD8C0070032DAE7 /* Assets.xcassets */,
+				0EFEF5871FD8C0070032DAE7 /* LaunchScreen.storyboard */,
+				0EFEF58A1FD8C0070032DAE7 /* Info.plist */,
+			);
+			path = "Granny Gear";
+			sourceTree = "<group>";
+		};
+		0EFEF5921FD8C0070032DAE7 /* Granny GearTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEF5931FD8C0070032DAE7 /* Granny_GearTests.swift */,
+				0EFEF5951FD8C0070032DAE7 /* Info.plist */,
+			);
+			path = "Granny GearTests";
+			sourceTree = "<group>";
+		};
+		0EFEF59D1FD8C0070032DAE7 /* Granny GearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEF59E1FD8C0070032DAE7 /* Granny_GearUITests.swift */,
+				0EFEF5A01FD8C0070032DAE7 /* Info.plist */,
+			);
+			path = "Granny GearUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFEF57A1FD8C0070032DAE7 /* Granny Gear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFEF5A31FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny Gear" */;
+			buildPhases = (
+				0EFEF5771FD8C0070032DAE7 /* Sources */,
+				0EFEF5781FD8C0070032DAE7 /* Frameworks */,
+				0EFEF5791FD8C0070032DAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Granny Gear";
+			productName = "Granny Gear";
+			productReference = 0EFEF57B1FD8C0070032DAE7 /* Granny Gear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EFEF58E1FD8C0070032DAE7 /* Granny GearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFEF5A61FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny GearTests" */;
+			buildPhases = (
+				0EFEF58B1FD8C0070032DAE7 /* Sources */,
+				0EFEF58C1FD8C0070032DAE7 /* Frameworks */,
+				0EFEF58D1FD8C0070032DAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFEF5911FD8C0070032DAE7 /* PBXTargetDependency */,
+			);
+			name = "Granny GearTests";
+			productName = "Granny GearTests";
+			productReference = 0EFEF58F1FD8C0070032DAE7 /* Granny GearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EFEF5991FD8C0070032DAE7 /* Granny GearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFEF5A91FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny GearUITests" */;
+			buildPhases = (
+				0EFEF5961FD8C0070032DAE7 /* Sources */,
+				0EFEF5971FD8C0070032DAE7 /* Frameworks */,
+				0EFEF5981FD8C0070032DAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFEF59C1FD8C0070032DAE7 /* PBXTargetDependency */,
+			);
+			name = "Granny GearUITests";
+			productName = "Granny GearUITests";
+			productReference = 0EFEF59A1FD8C0070032DAE7 /* Granny GearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFEF5731FD8C0060032DAE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "A Random Time";
+				TargetAttributes = {
+					0EFEF57A1FD8C0070032DAE7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0EFEF58E1FD8C0070032DAE7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EFEF57A1FD8C0070032DAE7;
+					};
+					0EFEF5991FD8C0070032DAE7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EFEF57A1FD8C0070032DAE7;
+					};
+				};
+			};
+			buildConfigurationList = 0EFEF5761FD8C0060032DAE7 /* Build configuration list for PBXProject "Granny Gear" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EFEF5721FD8C0060032DAE7;
+			productRefGroup = 0EFEF57C1FD8C0070032DAE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFEF57A1FD8C0070032DAE7 /* Granny Gear */,
+				0EFEF58E1FD8C0070032DAE7 /* Granny GearTests */,
+				0EFEF5991FD8C0070032DAE7 /* Granny GearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFEF5791FD8C0070032DAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFEF5891FD8C0070032DAE7 /* LaunchScreen.storyboard in Resources */,
+				0EFEF5861FD8C0070032DAE7 /* Assets.xcassets in Resources */,
+				0EFEF5841FD8C0070032DAE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF58D1FD8C0070032DAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF5981FD8C0070032DAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFEF5771FD8C0070032DAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFEF5811FD8C0070032DAE7 /* ViewController.swift in Sources */,
+				0EFEF57F1FD8C0070032DAE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF58B1FD8C0070032DAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFEF5941FD8C0070032DAE7 /* Granny_GearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFEF5961FD8C0070032DAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFEF59F1FD8C0070032DAE7 /* Granny_GearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFEF5911FD8C0070032DAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFEF57A1FD8C0070032DAE7 /* Granny Gear */;
+			targetProxy = 0EFEF5901FD8C0070032DAE7 /* PBXContainerItemProxy */;
+		};
+		0EFEF59C1FD8C0070032DAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFEF57A1FD8C0070032DAE7 /* Granny Gear */;
+			targetProxy = 0EFEF59B1FD8C0070032DAE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EFEF5821FD8C0070032DAE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFEF5831FD8C0070032DAE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EFEF5871FD8C0070032DAE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFEF5881FD8C0070032DAE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EFEF5A11FD8C0070032DAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EFEF5A21FD8C0070032DAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFEF5A41FD8C0070032DAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny Gear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-Gear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EFEF5A51FD8C0070032DAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny Gear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-Gear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EFEF5A71FD8C0070032DAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny GearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-GearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Granny Gear.app/Granny Gear";
+			};
+			name = Debug;
+		};
+		0EFEF5A81FD8C0070032DAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny GearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-GearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Granny Gear.app/Granny Gear";
+			};
+			name = Release;
+		};
+		0EFEF5AA1FD8C0070032DAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny GearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-GearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Granny Gear";
+			};
+			name = Debug;
+		};
+		0EFEF5AB1FD8C0070032DAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Granny GearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Granny-GearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Granny Gear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFEF5761FD8C0060032DAE7 /* Build configuration list for PBXProject "Granny Gear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFEF5A11FD8C0070032DAE7 /* Debug */,
+				0EFEF5A21FD8C0070032DAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFEF5A31FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny Gear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFEF5A41FD8C0070032DAE7 /* Debug */,
+				0EFEF5A51FD8C0070032DAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFEF5A61FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny GearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFEF5A71FD8C0070032DAE7 /* Debug */,
+				0EFEF5A81FD8C0070032DAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFEF5A91FD8C0070032DAE7 /* Build configuration list for PBXNativeTarget "Granny GearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFEF5AA1FD8C0070032DAE7 /* Debug */,
+				0EFEF5AB1FD8C0070032DAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EFEF5731FD8C0060032DAE7 /* Project object */;
+}
